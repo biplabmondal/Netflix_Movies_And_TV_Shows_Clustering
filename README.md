@@ -133,49 +133,80 @@ Since the project focuses on unsupervised learning, clustering algorithms were u
 K-Means groups data into clusters based on similarity.
 
 Key steps:
+
 •	Optimal number of clusters determined using the Elbow Method
+
 •	Cluster assignments performed using K-Means algorithm
-Hierarchical Clustering
+
+**Hierarchical Clustering**
+
 Hierarchical clustering was also applied to analyze the relationships between content groups using dendrogram visualization.
  
-Optimal Cluster Selection
+*Optimal Cluster Selection* :
 To determine the best number of clusters:
+
 •	Elbow Method
+
 •	Silhouette Score
+
 These techniques helped evaluate cluster quality and separation.
  
-Key Features of the Solution
+**Key Features of the Solution**
+
 Content Similarity Detection
+
 Groups movies and TV shows with similar descriptions together.
-Recommendation Support
+
+**Recommendation Support**
+
 Clusters can serve as the foundation of recommendation systems.
-Content Pattern Discovery
+
+*Content Pattern Discovery* :
 Identifies hidden patterns in Netflix’s large catalog.
-Scalable Approach
-The clustering pipeline can scale for larger streaming datasets.
+
+Scalable Approach : The clustering pipeline can scale for larger streaming datasets.
  
-Technologies Used
-Programming Language
+**Technologies Used**
+
+*Programming Language*
+
 •	Python
-Libraries
+
+*Libraries*
+
 •	NumPy
+
 •	Pandas
+
 •	Matplotlib
+
 •	Seaborn
+
 •	Scikit-learn
+
 •	NLTK (Natural Language Processing)
-Machine Learning Techniques
+
+**Machine Learning Techniques**
+
 •	TF-IDF Vectorization
+
 •	K-Means Clustering
+
 •	Hierarchical Clustering
+
 •	PCA (Dimensionality Reduction)
  
-Results
+**Results**
+
 After preprocessing and feature engineering, clustering algorithms successfully grouped Netflix content into meaningful clusters based on similarity in descriptions and metadata.
+
 The clustering results demonstrate how machine learning can effectively organize large-scale streaming content catalogs.
  
-Conclusion
+**Conclusion**
+
 This project demonstrates the power of unsupervised machine learning in organizing and analyzing streaming content.
-By applying TF-IDF vectorization, dimensionality reduction, and clustering algorithms, the project successfully groups similar Netflix movies and TV shows together.
-Such clustering techniques can support recommendation systems, enhance user experience, and help streaming platforms like Netflix deliver more personalized content to viewers.
+
+By applying TF-IDF vectorization, dimensionality reduction, and clustering algorithms, this project successfully grouped similar Netflix movies and TV shows together.
+
+Such clustering techniques can support recommendation systems, enhance user experience, and help streaming platforms like Netflix to deliver more personalized content to viewers.
 
