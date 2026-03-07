@@ -204,9 +204,7 @@ The clustering results demonstrate how machine learning can effectively organize
  
 **Conclusion**
 
-This project demonstrates the power of unsupervised machine learning in organizing and analyzing streaming content.
-
-By applying TF-IDF vectorization, dimensionality reduction, and clustering algorithms, this project successfully grouped similar Netflix movies and TV shows together.
+This project demonstrates the power of unsupervised machine learning in organizing and analyzing streaming content. By applying TF-IDF vectorization, dimensionality reduction, and clustering algorithms, this project successfully grouped similar Netflix movies and TV shows together.
 
 Such clustering techniques can support recommendation systems, enhance user experience, and help streaming platforms like Netflix to deliver more personalized content to viewers.
 
